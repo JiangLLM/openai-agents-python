@@ -422,5 +422,5 @@ If you pass `headers`, the SDK does not add `Authorization` automatically. Avoid
 -   [Realtime transport](transport.md)
 -   [Quickstart](quickstart.md)
 -   [OpenAI Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations/)
--   [OpenAI Realtime server-side controls](https://developers.openai.com/api/docs/guides/realtime-server-controls/)
+-   [OpenAI Realtime server-side controls](https://developers.openai.com/api/docs/guides/voice-server-controls/)
 -   [`examples/realtime`](https://github.com/openai/openai-agents-python/tree/main/examples/realtime)
