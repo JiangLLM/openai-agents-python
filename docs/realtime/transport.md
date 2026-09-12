@@ -4,7 +4,7 @@ Use this page to decide how realtime agents fit into your Python application.
 
 !!! note "Python SDK boundary"
 
-    The Python SDK does **not** include a browser WebRTC transport. This page is only about Python SDK transport choices: server-side WebSockets and SIP attach flows. Browser WebRTC is a separate platform topic, documented in the official [Realtime API with WebRTC](https://developers.openai.com/api/docs/guides/realtime-webrtc/) guide.
+    The Python SDK does **not** include a browser WebRTC transport. This page is only about Python SDK transport choices: server-side WebSockets and SIP attach flows. Browser WebRTC is a separate platform topic, documented in the official [Realtime API with WebRTC](https://developers.openai.com/api/docs/guides/voice-webrtc/) guide.
 
 ## Decision guide
 
@@ -85,8 +85,8 @@ The broader Realtime API also uses `call_id` for some server-side control patter
 If your app's primary client is a browser using Realtime WebRTC:
 
 -   Treat it as outside the scope of the Python SDK docs in this repository.
--   Use the official [Realtime API with WebRTC](https://developers.openai.com/api/docs/guides/realtime-webrtc/) and [Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations/) docs for the client-side flow and event model.
--   Use the official [Realtime server-side controls](https://developers.openai.com/api/docs/guides/realtime-server-controls/) guide if, in addition to a browser WebRTC client, you need a sideband server connection.
+-   Use the official [Realtime API with WebRTC](https://developers.openai.com/api/docs/guides/voice-webrtc/) and [Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations/) docs for the client-side flow and event model.
+-   Use the official [Realtime server-side controls](https://developers.openai.com/api/docs/guides/voice-server-controls/) guide if, in addition to a browser WebRTC client, you need a sideband server connection.
 -   Do not expect this repository to provide a browser-side `RTCPeerConnection` abstraction or a ready-made browser WebRTC sample.
 
 This repository also does not currently ship a browser WebRTC plus Python sideband example.
